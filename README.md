@@ -1,10 +1,7 @@
-<!-- ![](https://ws1.sinaimg.cn/large/006tNbRwly1fvh59oez3dj304t04uaap.jpg)
- -->
-<!-- test -->
- # Find My Song
 
-Author CacheMeOutside
-yiqing5@illinois.edu
+ # Find Your Song
+
+Author CacheMeOutside UIUC
 
 ### Development Environment
 Android Studio 3.2.1
@@ -16,17 +13,16 @@ Our project is going to be centered around Spotify. We are going to use Spotify 
 
 #### Basic functions:
 
-Add Spotify user
+Search music database by tracks, artists, albums
 
-Remove Spotify user
+Know top popular tracks, artists, albums
 
-Search music database by artist, album, or song title
+Follow/unfollow other users  
 
-Get user’s saved albums and playlists
 
 #### Advanced functions:
 
-Calculate similarity statistics between different songs, artists, genres and albums. This will be interesting because it will allow us to see what the most common musical tastes are. It will also tell us whether a fan of one artist is likely to be a fan of another artist, for example.
+Calculate similarity statistics between different songs, artists, genres and albums. This will be interesting because it will allow us to see what the most common musical tastes are. It will also tell us whether a fan of one artist is likely to be a fan of another artist.
 
 
 
