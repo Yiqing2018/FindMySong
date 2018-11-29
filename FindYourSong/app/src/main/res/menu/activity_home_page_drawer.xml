@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/search"
+            android:icon="@mipmap/ic_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/score"
+            android:icon="@mipmap/ic_score"
+            android:title="score"/>
+
+
+
+        <item
+            android:id="@+id/follow"
+            android:icon="@mipmap/ic_follow"
+            android:title="follow" />
+
+    </group>
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/rec"
+            android:icon="@mipmap/ic_rec"
+            android:title="find your song" />
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/send"
+                android:icon="@mipmap/ic_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@mipmap/ic_contact"
+                android:title="Contact" />
+        </menu>
+    </item>
+
+</menu>
