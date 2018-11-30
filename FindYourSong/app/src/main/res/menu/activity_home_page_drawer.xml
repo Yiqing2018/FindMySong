@@ -35,7 +35,7 @@
             <item
                 android:id="@+id/send"
                 android:icon="@mipmap/ic_send"
-                android:title="Send" />
+                android:title="Report" />
             <item
                 android:id="@+id/contact"
                 android:icon="@mipmap/ic_contact"

@@ -24,7 +24,15 @@
             android:label="@string/title_activity_home_page"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SearchActivity" />
-        <activity android:name=".SendActivity"></activity>
+        <activity android:name=".SendActivity" />
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TopTrack" />
+        <activity android:name=".testya" />
+        <activity android:name=".TopAlbum" />
+        <activity android:name=".TopArtists"></activity>
     </application>
 
 </manifest>

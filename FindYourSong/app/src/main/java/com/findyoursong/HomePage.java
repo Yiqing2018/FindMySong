@@ -19,6 +19,8 @@ public class HomePage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     TextView topTrack;
+    TextView topAlbum;
+    TextView topArtist;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,11 +38,27 @@ public class HomePage extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
-        topTrack= (TextView) findViewById(R.id.top_track);;
+        topTrack= (TextView) findViewById(R.id.top_track);
         topTrack.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                //get top Tracks
-                topTrack.setText("Click top track");
+                Intent intent = new Intent(HomePage.this, TopTrack.class);
+                startActivity(intent);
+            }
+        });
+
+        topAlbum= (TextView) findViewById(R.id.top_album);
+        topAlbum.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(HomePage.this, TopAlbum.class);
+                startActivity(intent);
+            }
+        });
+
+        topArtist= (TextView) findViewById(R.id.top_artists);
+        topArtist.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(HomePage.this, TopArtists.class);
+                startActivity(intent);
             }
         });
 
@@ -68,7 +86,9 @@ public class HomePage extends AppCompatActivity
 
         } else if (id == R.id.score) {
 
+
         } else if (id == R.id.follow) {
+
 
         } else if (id == R.id.rec) {
 
@@ -77,7 +97,8 @@ public class HomePage extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.contact) {
-
+            Intent intent = new Intent(HomePage.this, ContactActivity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

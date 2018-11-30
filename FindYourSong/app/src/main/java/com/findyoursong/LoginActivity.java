@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
-
     String username;
     String password;
     Button connectButton;
