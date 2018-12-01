@@ -38,14 +38,14 @@ public class artist_search extends AsyncTask<String,Void,String> {
     protected void onPostExecute(String s) {
 //        dialog.setMessage(s);
         if(s.equals("404")) {
-            dialog.setMessage("No such artist");
+            dialog.setMessage("No such artist in database");
             dialog.show();
             return;
         }
         String message="Most FIVE Popular Songs BY "+artistName+"\n\n";
         try{
             JSONArray arr = new JSONArray(s);
-            for (int i=0;i<5;i++){
+            for (int i=0;i<arr.length();i++){
                 message+="Rank "+(i+1)+" : ";
                 message+=arr.getJSONObject(i).getString("track_name");
                 message+="\n";

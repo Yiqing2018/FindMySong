@@ -94,13 +94,15 @@ public class HomePage extends AppCompatActivity
 
             Intent intent = new Intent(HomePage.this,follow_list.class);
             intent.putExtra("id", username);
-
             startActivity(intent);
 
-//            Intent intent = new Intent(HomePage.this,ScoreActivity.class);
-//            startActivity(intent);
 
         } else if (id == R.id.follow) {
+
+            String username="Yiqing";
+            Intent intent = new Intent(HomePage.this,only_follow_list.class);
+            intent.putExtra("id", username);
+            startActivity(intent);
 
 
         } else if (id == R.id.rec) {

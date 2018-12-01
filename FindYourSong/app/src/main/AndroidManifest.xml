@@ -35,7 +35,8 @@
         <activity android:name=".TopArtists" />
         <activity android:name=".ScoreActivity" />
         <activity android:name=".scoreWith" />
-        <activity android:name=".follow_list"></activity>
+        <activity android:name=".follow_list" />
+        <activity android:name=".only_follow_list"></activity>
     </application>
 
 </manifest>
