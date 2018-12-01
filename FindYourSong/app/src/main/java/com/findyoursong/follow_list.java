@@ -26,8 +26,8 @@ public class follow_list extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_follow_list);
         Mylayout = (LinearLayout) findViewById(R.id.viewObj);
-        Intent intent = getIntent();
-        username = intent.getStringExtra("id");
+
+
 
         getFollowInfo someTask = new getFollowInfo(username,new OnEventListener<List<String>>(){
             public void onSuccess(List<String> following) {

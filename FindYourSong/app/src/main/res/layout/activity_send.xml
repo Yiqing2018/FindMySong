@@ -21,7 +21,7 @@
         android:ems="10"
         android:enabled="true"
         android:gravity="top"
-        android:hint="Thank you for your advice!"
+        android:hint="Leave your message!"
         android:inputType="textMultiLine"
         android:maxLines="10"
         android:minLines="8"
@@ -62,7 +62,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/send_button"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"

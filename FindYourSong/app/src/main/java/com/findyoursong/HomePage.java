@@ -115,7 +115,8 @@ public class HomePage extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.send) {
-            Intent intent = new Intent(HomePage.this,SendActivity.class);
+            Intent intent = new Intent(HomePage.this,SendActivity.class);            intent.putExtra("id", username);
+            intent.putExtra("id", username);
             startActivity(intent);
 
         } else if (id == R.id.contact) {
