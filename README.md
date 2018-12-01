@@ -13,7 +13,20 @@ Our project is going to be centered around Spotify. We are going to use Spotify 
 
 #### Basic functions:  
 show Recent Trend (Top popularity tracks,albums,artists)  
-![](https://ws3.sinaimg.cn/large/006tNbRwly1fxs0wm22zsj30u01hck10.jpg)
+
+<p align="center">
+
+  <img width="200" src="https://ws3.sinaimg.cn/large/006tNbRwly1fxs0wm22zsj30u01hck10.jpg">
+  
+  <img width="200" src="https://ws4.sinaimg.cn/large/006tNbRwly1fxs0zfr30gj30u01hc136.jpg">
+
+
+  <img width="200" src="https://ws4.sinaimg.cn/large/006tNbRwly1fxs0ztgc05j30u01hcgw5.jpg">
+
+
+  <img width="200" src="https://ws2.sinaimg.cn/large/006tNbRwly1fxs0zwskskj30u01hcteq.jpg">
+
+</p>
 
 
 Search music database by tracks, artists, albums
