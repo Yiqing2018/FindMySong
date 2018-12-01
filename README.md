@@ -59,6 +59,9 @@ Follow/unfollow other users
 	  <img width="200" src="https://ws3.sinaimg.cn/large/006tNbRwly1fxs1us939sj30u01hcgn8.jpg">
 	  <img width="200" src="https://ws1.sinaimg.cn/large/006tNbRwly1fxs1ux6vtoj30u01hcmzq.jpg">
 	  <img width="200" src="https://ws2.sinaimg.cn/large/006tNbRwly1fxs1v1a6uvj30u01hc409.jpg">
+</p>
+
+<p align="center">	  
 	  <img width="200" src="https://ws4.sinaimg.cn/large/006tNbRwly1fxs1v4nu67j30u01hcmzs.jpg">
 	  <img width="200" src="https://ws4.sinaimg.cn/large/006tNbRwly1fxs1v7lcz1j30u01hcabp.jpg">
 </p>
@@ -82,7 +85,9 @@ Show message if email address is invalid.
 <p align="center">
 	  <img width="200" src="https://ws1.sinaimg.cn/large/006tNbRwly1fxs1gypqazj30u01hc0tx.jpg">
 	  <img width="200" src="https://ws3.sinaimg.cn/large/006tNbRwly1fxs1h3mcrvj30u01hc3zm.jpg">
-	  <img width="200" src="https://ws1.sinaimg.cn/large/006tNbRwly1fxs1rfpkxsj30w40803zo.jpg">
+</p>
+<p align="center">
+	  <img width="600" src="https://ws1.sinaimg.cn/large/006tNbRwly1fxs1rfpkxsj30w40803zo.jpg">
 </p>
 
 #### Advanced functions:
