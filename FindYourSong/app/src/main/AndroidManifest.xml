@@ -32,7 +32,10 @@
         <activity android:name=".TopTrack" />
         <activity android:name=".testya" />
         <activity android:name=".TopAlbum" />
-        <activity android:name=".TopArtists"></activity>
+        <activity android:name=".TopArtists" />
+        <activity android:name=".ScoreActivity" />
+        <activity android:name=".scoreWith" />
+        <activity android:name=".follow_list"></activity>
     </application>
 
 </manifest>

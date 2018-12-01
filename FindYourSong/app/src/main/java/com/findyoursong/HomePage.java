@@ -1,6 +1,7 @@
 package com.findyoursong;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -86,6 +87,18 @@ public class HomePage extends AppCompatActivity
 
         } else if (id == R.id.score) {
 
+            //test
+
+   //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            String username="Yiqing";
+
+            Intent intent = new Intent(HomePage.this,follow_list.class);
+            intent.putExtra("id", username);
+
+            startActivity(intent);
+
+//            Intent intent = new Intent(HomePage.this,ScoreActivity.class);
+//            startActivity(intent);
 
         } else if (id == R.id.follow) {
 
