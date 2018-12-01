@@ -25,7 +25,8 @@ public class SendActivity extends AppCompatActivity {
                 EditText tv=((EditText) findViewById(R.id.send_text));
                 String txt=tv.getText().toString();
                 String email=((TextView) findViewById(R.id.send_email)).getText().toString();
-                //tv.setText(txt+"get text!");
+//                tv.setText(username);
+
 
                 if(username==null || username.length()==0){
                     tv.setText("invalid user information");

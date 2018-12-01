@@ -36,7 +36,7 @@ public class Send extends AsyncTask<Void,Void,Void> {
 
             OutputStream ops = http.getOutputStream();
             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(ops,"UTF-8"));
-            String data = URLEncoder.encode("user_name","UTF-8") +"="+URLEncoder.encode(username,"UTF-8")
+            String data = URLEncoder.encode("username","UTF-8") +"="+URLEncoder.encode(username,"UTF-8")
                     +"&"+URLEncoder.encode("user_email","UTF-8")+"="+URLEncoder.encode(email,"UTF-8")
                     +"&"+URLEncoder.encode("user_feedback","UTF-8")+"="+URLEncoder.encode(txt,"UTF-8");
 
