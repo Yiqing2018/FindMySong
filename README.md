@@ -11,7 +11,10 @@ Our project is going to be centered around Spotify. We are going to use Spotify 
 ****
 ### Functionality
 
-#### Basic functions:
+#### Basic functions:  
+show Recent Trend (Top popularity tracks,albums,artists)  
+![](https://ws3.sinaimg.cn/large/006tNbRwly1fxs0wm22zsj30u01hck10.jpg)
+
 
 Search music database by tracks, artists, albums
 
