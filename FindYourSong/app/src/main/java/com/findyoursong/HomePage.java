@@ -19,6 +19,13 @@ import android.widget.TextView;
 public class HomePage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
+
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    String username="Yiqing";
+
+
     TextView topTrack;
     TextView topAlbum;
     TextView topArtist;
@@ -87,10 +94,7 @@ public class HomePage extends AppCompatActivity
 
         } else if (id == R.id.score) {
 
-            //test
 
-   //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            String username="Yiqing";
 
             Intent intent = new Intent(HomePage.this,follow_list.class);
             intent.putExtra("id", username);
@@ -99,13 +103,16 @@ public class HomePage extends AppCompatActivity
 
         } else if (id == R.id.follow) {
 
-            String username="Yiqing";
             Intent intent = new Intent(HomePage.this,only_follow_list.class);
             intent.putExtra("id", username);
             startActivity(intent);
 
 
         } else if (id == R.id.rec) {
+
+            Intent intent = new Intent(HomePage.this,FindYourSong.class);
+            intent.putExtra("id", username);
+            startActivity(intent);
 
         } else if (id == R.id.send) {
             Intent intent = new Intent(HomePage.this,SendActivity.class);
