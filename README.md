@@ -10,12 +10,24 @@ cPanel, Mysql
 
 ****  
 ### Project description
-TBD  
+ Our project is going to be centered around Spotify. We are going to use Spotify API’s to access user data and listening history. We will use this information to construct databases to keep track of musical tastes. These databases will then be used to evaluate similarity between multiple user’s music tastes and to make recommendations to users on music they would all like.  
+ 
 
 ****
 ### Functionality
 
 #### Basic functions:  
+Login in with Spotify API, we will import your user information(user_id, username) and recent listening history into our backend database.  if you successfully login in, redirect to home page of our application. 
+
+
+<p align="center">
+
+  <img width="200" src="https://ws1.sinaimg.cn/large/006tNbRwly1fxucqkav5xj30u01hcdip.jpg">
+  
+  <img width="200" src="https://ws3.sinaimg.cn/large/006tNbRwly1fxucro1d0lj30u01hcdpg.jpg">
+
+</p>
+
 show Recent Trend (Top popularity tracks,albums,artists)  
 
 <p align="center">
