@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FindYourSong</string>
+    <string name="title_activity_home_page">Find Your Song</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Find Your Song</string>
+    <string name="nav_header_subtitle">Team@CacheMeOutside</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contact">Contact us</string>
+    <string name="large_text">
+        "\nThis is team CacheMeOutside from UIUC.\n"
+        "Thank your for your support!\n\n"
+        "Development Infomation:\n
+        Android Studio 3.2.1\n
+        Server: cPanel\n
+        Database: Mysql\n\n"
+        "Hope you enjoy it!\n\n"
+    </string>
+</resources>
