@@ -1,7 +1,9 @@
 
  # Find Your Song
 
-Author CacheMeOutside UIUC
+### demo video
+https://www.youtube.com/watch?v=S0gGRZKl8gk&feature=youtu.be
+
 
 ### Development Environment
 Android Studio 3.2.1
@@ -11,12 +13,17 @@ cPanel, Mysql
 ****  
 ### Project description
  Our project is going to be centered around Spotify. We are going to use Spotify API’s to access user data and listening history. We will use this information to construct databases to keep track of musical tastes. These databases will then be used to evaluate similarity between multiple user’s music tastes and to make recommendations to users on music they would all like.  
- 
+ ****
+
+### workflow  
+![](https://ws4.sinaimg.cn/large/006tNbRwly1fxuj3u549aj319j0u043x.jpg)
+
 
 ****
 ### Functionality
 
-#### Basic functions:  
+#### Basic functions: 
+##### login in 
 Login in with Spotify API, we will import your user information(user_id, username) and recent listening history into our backend database.  if you successfully login in, redirect to home page of our application. 
 
 
@@ -28,6 +35,7 @@ Login in with Spotify API, we will import your user information(user_id, usernam
 
 </p>
 
+##### Recent Trend 
 show Recent Trend (Top popularity tracks,albums,artists)  
 
 <p align="center">
@@ -56,6 +64,8 @@ click on the Track/Album/Artist for more details
 
 </p>
 
+##### Search
+
 Search by tracks, artists, albums  
 
 <p align="center">
@@ -65,7 +75,7 @@ Search by tracks, artists, albums
 	  <img width="200" src="">
 </p>
 
-
+##### follow/unfollow
 Follow/unfollow other users  
 <p align="center">
 	  <img width="200" src="https://ws3.sinaimg.cn/large/006tNbRwly1fxs1us939sj30u01hcgn8.jpg">
@@ -79,14 +89,14 @@ Follow/unfollow other users
 </p>
 
 
-Contact with us    
+##### Contact with us    
 click on the email icon, you can automatically go to the Email Application.
 <p align="center">
 	  <img width="200" src="https://ws4.sinaimg.cn/large/006tNbRwly1fxs1fc7u8dj30u01hcjtm.jpg">
 	  <img width="200" src="https://ws2.sinaimg.cn/large/006tNbRwly1fxs1g32welj30u01hcdh4.jpg">
 </p>
 
-Report     
+##### Report     
 Leave your message with us!  
 Show message if email address is invalid.
 <p align="center">
@@ -104,7 +114,7 @@ Show message if email address is invalid.
 
 #### Advanced functions:
  
-Score with your friends!  
+##### Score with your friends!  
 compare how similar with your friends. click on another user you are following, it will show a progress bar which indicates how similar you are with your friends.  
 we use this algorithm to calculate the similarity:  
 - same tracks, Plus 10 points!  
@@ -118,7 +128,7 @@ we use this algorithm to calculate the similarity:
 	  <img width="200" src="https://ws4.sinaimg.cn/large/006tNbRwly1fxs1av1oyfj30u01hc76e.jpg">
 </p>  
 
-Find your Song!  
+##### Find your Song!  
 we followed the algorithm:  
 - find the most similar another user (based on track listening history) 
 - get the listening list of that user, find out which songs I haven't listened befored.  
