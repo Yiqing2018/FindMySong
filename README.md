@@ -138,6 +138,5 @@ we followed the algorithm:
 	  <img width="200" src="https://ws1.sinaimg.cn/large/006tNbRwly1fxs1e4ycisj30u01hcaaw.jpg">
 	  <img width="200" src="https://ws4.sinaimg.cn/large/006tNbRwly1fxs1e9ditnj30u01hcq3o.jpg">
 	  <img width="200" src="https://ws2.sinaimg.cn/large/006tNbRwly1fxs1el0f5pj30u01hcgmr.jpg">
-	  <img width="200" src="">
 </p>  
 
