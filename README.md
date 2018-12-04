@@ -2,8 +2,7 @@
  # Find Your Song
 
 ### demo video
-https://www.youtube.com/watch?v=S0gGRZKl8gk&feature=youtu.be
-
+https://www.youtube.com/watch?v=ix-FVjCw3jM&feature=youtu.be
 
 ### Development Environment
 Android Studio 3.2.1
